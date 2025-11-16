@@ -17,28 +17,28 @@ export default function Home() {
           <Image src={componentsImg} alt="componentes" className="w-32"/>
           <h2 className="text-x1 font-bold text-slate-100">Componentes</h2>
           <p className="p-3 mt-2 text-slate-200">
-            El núcleo de React son los componentes. Un componente es una pieza reutilizable de código que representa una parte de la interfaz de usuario. Los componentes pueden ser tan simples como un botón o tan complejos como una página completa.
+            Elemento básico de la UI - La interfaz de usuario se compone combinando varios componentes.
           </p>
         </li>
          <li className="flex flex-col items-center justify-center">
           <Image src={jsxImg} alt="jsxImg" className="w-32"/>
-          <h2 className="text-x1 font-bold text-slate-100">Componentes</h2>
+          <h2 className="text-x1 font-bold text-slate-100">JSX</h2>
           <p className="p-3 mt-2 text-slate-200">
-            El núcleo de React son los componentes. Un componente es una pieza reutilizable de código que representa una parte de la interfaz de usuario. Los componentes pueden ser tan simples como un botón o tan complejos como una página completa.
+            Crea código del estilo HTML potencialmete dinámico para definir el renderizado final de la página.
           </p>
         </li>
          <li className="flex flex-col items-center justify-center">
           <Image src={propsImg} alt="propsImg" className="w-32"/>
-          <h2 className="text-x1 font-bold text-slate-100">Componentes</h2>
+          <h2 className="text-x1 font-bold text-slate-100">Props</h2>
           <p className="p-3 mt-2 text-slate-200">
-            El núcleo de React son los componentes. Un componente es una pieza reutilizable de código que representa una parte de la interfaz de usuario. Los componentes pueden ser tan simples como un botón o tan complejos como una página completa.
+            Haz tus componentes configurables (y reusables) mediante el paso de datos de entrada.
           </p>
         </li>
          <li className="flex flex-col items-center justify-center">
           <Image src={stateImg} alt="stateImg" className="w-32"/>
-          <h2 className="text-x1 font-bold text-slate-100">Componentes</h2>
+          <h2 className="text-x1 font-bold text-slate-100">State</h2>
           <p className="p-3 mt-2 text-slate-200">
-            El núcleo de React son los componentes. Un componente es una pieza reutilizable de código que representa una parte de la interfaz de usuario. Los componentes pueden ser tan simples como un botón o tan complejos como una página completa.
+            Datos gestionados por React que con los cambios de valor, provocan el renderizado del componente para actualizar la UI al cambio.
           </p>
         </li>
 
